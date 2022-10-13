@@ -7,13 +7,13 @@ To install the VookiImageViewer application for MacOS, use the following command
 
 ```
 brew tap vookimedlo/homebrew-vookiimageviewer
-brew cask install vookiimageviewer-macos
+brew install --cask vookiimageviewer-macos
 ```
 
 Later, to upgrade the VookiImageViewer application for MacOS, use the following command.
 
 ```
-brew cask upgrade vookiimageviewer-macos
+brew upgrade --cask vookiimageviewer-macos
 ```
 
 [1]: https://vookiimageviewer.cz/

@@ -1,7 +1,7 @@
 cask 'vookiimageviewer-macos' do
-version '2020.11.25'
-url 'https://github.com/vookimedlo/vooki-image-viewer/releases/download/v2020.11.25/VookiImageViewer-brew-macos.zip'
-sha256 '87894bc90643927b9d21a9132ee1ccfd37ceddbcf7a475c205348d4b8c889f88'
+version '2022.10.13'
+url 'https://github.com/vookimedlo/vooki-image-viewer/releases/download/v2022.10.13/VookiImageViewer-brew-macos.zip'
+sha256 'ff4b9509cdc247582d928e78ea9c3cd85a1d731729b02c6129f830f5e91cb067'
 
 name 'VookiImageViewer'
 homepage "https://github.com/vookimedlo/vooki-image-viewer"
