@@ -1,10 +1,13 @@
 cask 'vookiimageviewer-macos' do
-version '2024.05.12'
-url 'https://github.com/vookimedlo/vooki-image-viewer/releases/download/v2024.05.12/VookiImageViewer-brew-macos.zip'
-sha256 '4c5d7c997e2a6cc930aa89b0507c5b3447917538fd0234d4c04284d6a32e8cbb'
+version '2025.02.15'
+url 'https://github.com/vookimedlo/vooki-image-viewer/releases/download/v2025.02.15/VookiImageViewer-brew-macos.zip'
+sha256 '00784638ebdcc7a08869206b6f10d1f726e2447b871351c49b78de5dd2dd23cc'
 
 name 'VookiImageViewer'
 homepage "https://github.com/vookimedlo/vooki-image-viewer"
 
+depends_on macos: ">= :sonoma"
+
 app 'VookiImageViewer.app'
+desc "Image viewer"
 end
